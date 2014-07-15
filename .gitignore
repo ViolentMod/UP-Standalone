@@ -1,23 +1,22 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+## gradle
+/.gradle
+/build
 
-# Libraries
-*.lib
-*.a
+## ForgeGradle
+/run
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+## eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+## intellij
+/out
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/atlassian-ide-plugin.xml
